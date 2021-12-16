@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<body>
+    <label for="count">Amount of heroes:</label>
+    <input type="number" id="count" min="1" max="100" value="1"><br>
+    <button id="roll">Random</button><br><br>
+    <div id="output" style="border: 2px solid black; width: 300px;">Output will appear here...</div>
+</body>
+
+<script src="../functions.js"></script>
+<script>
+    const maps = [
+        "Central Core",
+        "Vicious Valley",
+        "Elite Expanse",
+        "Wacky Wonderland",
+        "Glacial Gorge",
+        "Dangerous District",
+        "Peculiar Pyramid (Inner/Outer)",
+        "Peculiar Pyramid Perimeter",
+        "Monumental Migration (120)",
+        "Humongous Hollow",
+        "Haunted Halls",
+        "Quiet Quarry",
+        "Frozen Fjord",
+        "Restless Ridge",
+        "Toxic Territory",
+        "Magnetic Monopole",
+        "Magnetic Monopole Diapoles",
+        "Assorted Alcove",
+        "Burning Bunker",
+        "Central Core Hard",
+        "Vicious Valley Hard",
+        "Glacial Gorge Hard",
+        "Assorted Alcove Hard",
+        "Frozen Fjord Hard"
+    ];
+
+    const heroes = [
+        "Magmax",
+        "Rime",
+        "Morfe",
+        "Aurora",
+        "Necro",
+        "Brute",
+        "Nexus",
+        "Shade",
+        "Euclid",
+        "Chrono",
+        "Reaper",
+        "Rameses",
+        "Jolt",
+        "Ghoul",
+        "Cent",
+        "Jötunn",
+        "Candy",
+        "Mirage",
+        "Boldrock"
+    ];
+
+    document.getElementById("roll").onclick = function() {
+        const count = parseInt(document.getElementById("count").value);
+        const map = randomFromArray(maps);
+        let string = `Your map is: ${map}`;
+
+        for (let i = 0; i < count; i++) {
+            const hero = randomFromArray(heroes);
+            string += `\nHero ${i+1}: ${hero}`;
+        };
+
+        document.getElementById("output").innerText = string;
+    };
+</script>
