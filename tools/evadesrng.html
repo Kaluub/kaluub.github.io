@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 
+<head>
+    <link rel="stylesheet" href="../assets/css/evades.css">
+</head>
+
 <body>
     <label for="count">Amount of heroes:</label>
     <input type="number" id="count" min="1" max="100" value="1"><br>
     <button id="roll">Random</button><br><br>
-    <div id="output" style="border: 2px solid black; width: 300px;">Output will appear here...</div>
+    <div id="output">Output will appear here...</div><br>
+    <a href="https://evades.io/">Go to Evades.io</a>
 </body>
 
-<script src="../functions.js"></script>
+<script src="../assets/js/functions.js"></script>
 <script>
     const maps = [
         "Central Core",
@@ -61,13 +66,13 @@
     document.getElementById("roll").onclick = function() {
         const count = parseInt(document.getElementById("count").value);
         const map = randomFromArray(maps);
-        let string = `Your map is: ${map}`;
+        let string = `Your map is: <b>${map}</b>`;
 
         for (let i = 0; i < count; i++) {
             const hero = randomFromArray(heroes);
-            string += `\nHero ${i+1}: ${hero}`;
+            string += `<br>Hero ${i+1}: ${hero}`;
         };
 
-        document.getElementById("output").innerText = string;
+        document.getElementById("output").innerHTML = string;
     };
 </script>
