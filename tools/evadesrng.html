@@ -6,10 +6,15 @@
 
 <body>
     <label for="count">Amount of heroes:</label>
-    <input type="number" id="count" min="1" max="100" value="1"><br>
+    <input type="number" id="count" min="1" max="100" value="1">
     <button id="roll">Random</button><br><br>
     <div id="output">Output will appear here...</div><br>
-    <a href="https://evades.io/">Go to Evades.io</a>
+    Go to <a href="https://evades.io/">Evades.io</a> or
+    <button id="game">press to play here</button>
+    <div hidden id="gamediv">
+        <iframe src="https://evades.io/" width="1280" height="720" allowfullscreen="true" name="Evades" id="evades"></iframe>
+    </div>
+    <br>
 </body>
 
 <script src="../assets/js/functions.js"></script>
@@ -74,5 +79,10 @@
         };
 
         document.getElementById("output").innerHTML = string;
+    };
+
+    document.getElementById("game").onclick = function() {
+        let evades = document.getElementById("gamediv");
+        evades.hidden = !evades.hidden;
     };
 </script>
