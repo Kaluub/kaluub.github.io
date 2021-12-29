@@ -3,6 +3,7 @@
 <head>
     <title>Evades Randomizer</title>
     <link rel="stylesheet" href="../assets/css/evades.css">
+    <meta name="google-site-verification" content="TMZjGb9i-ha_HAReMZaq1m1kCgbnRlHwrUsN6Mf66zU" />
 </head>
 
 <body>
@@ -11,9 +12,9 @@
 
     <button id="show-more-options">More options</button><br>
     <div hidden id="more-options">
-        <div title="If unchecked, hard varients of maps (ie. Central Core Hard) will not appear.">
-            <label for="hard-varients">Include hard varients?</label>
-            <input type="checkbox" id="hard-varients" checked=true><br>
+        <div title="If unchecked, hard variants of maps (ie. Central Core Hard) will not appear.">
+            <label for="hard-variants">Include hard variants?</label>
+            <input type="checkbox" id="hard-variants" checked=true><br>
         </div>
         
         <div title="If checked, any map more than 40 levels long are excluded. Restless Ridge and Frozen Fjord (Hard) are also considered long.">
@@ -52,7 +53,7 @@
         "Restless Ridge",
         "Toxic Territory",
         "Magnetic Monopole",
-        "Magnetic Monopole Diapoles",
+        "Magnetic Monopole Dipoles",
         "Assorted Alcove",
         "Burning Bunker",
         "Central Core Hard",
@@ -71,7 +72,7 @@
         "Haunted Halls",
         "Toxic Territory",
         "Magnetic Monopole",
-        "Magnetic Monopole Diapoles",
+        "Magnetic Monopole Dipoles",
         "Assorted Alcove",
         "Burning Bunker",
         "Central Core Hard",
@@ -109,7 +110,7 @@
         if(document.getElementById("short-maps-only").checked) localmaps = shortMaps;
 
         let map = randomFromArray(localmaps);
-        if(!document.getElementById("hard-varients").checked) map = randomFromArray(localmaps.filter(s => !s.includes(" Hard")));
+        if(!document.getElementById("hard-variants").checked) map = randomFromArray(localmaps.filter(s => !s.includes(" Hard")));
 
         let string = `Your map is: <b>${map}</b>`;
         for (let i = 0; i < count; i++) {
