@@ -3,7 +3,6 @@
 <head>
     <title>Evades Randomizer</title>
     <link rel="stylesheet" href="../assets/css/evades.css">
-    <meta name="google-site-verification" content="TMZjGb9i-ha_HAReMZaq1m1kCgbnRlHwrUsN6Mf66zU" />
 </head>
 
 <body>
@@ -11,7 +10,7 @@
     <input type="number" id="count" min="1" max="100" value="1"><br>
 
     <button id="show-more-options">More options</button><br>
-    <div hidden id="more-options">
+    <div hidden id="more-options" class="includebg">
         <div title="If unchecked, hard variants of maps (ie. Central Core Hard) will not appear.">
             <label for="hard-variants">Include hard variants?</label>
             <input type="checkbox" id="hard-variants" checked=true><br>
@@ -60,7 +59,12 @@
         "Vicious Valley Hard",
         "Glacial Gorge Hard",
         "Assorted Alcove Hard",
-        "Frozen Fjord Hard"
+        "Frozen Fjord Hard",
+        "Toxic Territory Hard",
+        "Magnetic Monopole Hard",
+        "Magnetic Monopole Hard Dipoles",
+        "Burning Bunker Hard",
+        "Restless Ridge Hard"
     ];
 
     const shortMaps = [
@@ -78,7 +82,11 @@
         "Central Core Hard",
         "Vicious Valley Hard",
         "Glacial Gorge Hard",
-        "Assorted Alcove Hard"
+        "Assorted Alcove Hard",
+        "Toxic Territory Hard",
+        "Magnetic Monopole Hard",
+        "Magnetic Monopole Hard Dipoles",
+        "Burning Bunker Hard"
     ];
 
     const heroes = [
@@ -100,7 +108,10 @@
         "Jötunn",
         "Candy",
         "Mirage",
-        "Boldrock"
+        "Boldrock",
+        "Glob",
+        "Magno",
+        "Ignis"
     ];
 
     document.getElementById("roll").onclick = function() {

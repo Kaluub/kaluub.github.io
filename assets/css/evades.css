@@ -19,6 +19,13 @@ div#output {
     margin: auto;
 }
 
+div.includebg {
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: fit-content;
+}
+
 iframe#evades {
     border: 0px;
     overflow: auto;
