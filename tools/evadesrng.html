@@ -193,13 +193,17 @@
         if(document.getElementById("elo-settings").checked) {
             const count = 5;
             let string = `Pick between any of the 5 maps & any of the 5 heroes below:<br><br>Maps:`;
+            const chosenMaps = [];
             for (let i = 0; i < count; i++) {
-                const map = randomFromArray(professionalMaps);
+                const map = randomFromArray(professionalMaps.filter(map => !chosenMaps.includes(map)));
+                chosenMaps.push(map);
                 string += `<br>• ${map}`;
             }
             string += `<br><br>Heroes:`;
+            const chosenHeroes = [];
             for (let i = 0; i < count; i++) {
-                const hero = randomFromArray(heroes);
+                const hero = randomFromArray(heroes.filter(hero => !chosenHeroes.includes(hero)));
+                chosenHeroes.push(hero);
                 string += `<br>• ${hero}`;
             }
 
