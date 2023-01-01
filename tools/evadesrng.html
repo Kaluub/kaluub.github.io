@@ -6,9 +6,16 @@
 </head>
 
 <body>
-    <label for="count">Amount of heroes:</label>
-    <input type="number" id="count" min="1" max="100" value="1"><br>
+    <div id="elo-settings-div" title="When set, ELO approved settings will automatically be applied.">
+        <label for="elo-settings">Use ELO-approved settings?</label>
+        <input type="checkbox" id="elo-settings"><br>
+    </div>
 
+    <div id="count-div">
+        <label for="count">Amount of heroes:</label>
+        <input type="number" id="count" min="1" max="100" value="1"><br>
+    </div>
+    
     <button id="show-more-options">More options</button><br>
     <div hidden id="more-options" class="includebg">
         <div title="If unchecked, hard variants of maps (ie. Central Core Hard) will not appear.">
@@ -22,7 +29,7 @@
         </div>
     </div>
 
-    <button id="roll">Random</button><br><br>
+    <button id="roll">Randomize</button><br><br>
     <div id="output">Output will appear here...</div><br>
 
     Go to <a href="https://evades.io/">Evades.io</a> or
@@ -112,6 +119,38 @@
         "Catastrophic Core"
     ];
 
+    const professionalMaps = [
+        "Central Core",
+        "Central Core Hard",
+        "Catastrophic Core",
+        "Vicious Valley",
+        "Vicious Valley Hard",
+        "Elite Expanse",
+        "Elite Expanse Hard",
+        "Wacky Wonderland",
+        "Glacial Gorge",
+        "Glacial Gorge Hard",
+        "Dangerous District",
+        "Dangerous District Hard",
+        "Humongous Hollow",
+        "Frozen Fjord",
+        "Frozen Fjord Hard",
+        "Quiet Quarry",
+        "Quiet Quarry Hard",
+        "Ominous Occult",
+        "Ominous Occult Hard",
+        "Restless Ridge",
+        "Toxic Territory",
+        "Toxic Territory Hard",
+        "Assorted Alcove",
+        "Assorted Alcove Hard",
+        "Burning Bunker",
+        "Burning Bunker Hard",
+        "Grand Garden",
+        "Grand Garden Hard",
+        "Monumental Migration 120"
+    ]
+
     const heroes = [
         "Magmax",
         "Rime",
@@ -137,10 +176,35 @@
         "Ignis",
         "Stella",
         "Viola",
-        "Mortuus"
+        "Mortuus",
+        "? (A.K.A. Cybot)",
+        "Echelon"
     ];
 
+    document.getElementById("elo-settings").onclick = function() {
+        const shouldUse = document.getElementById("elo-settings").checked;
+        document.getElementById("more-options").hidden = true;
+        document.getElementById("show-more-options").hidden = shouldUse;
+        document.getElementById("count-div").hidden = shouldUse;
+    };
+
     document.getElementById("roll").onclick = function() {
+        if(document.getElementById("elo-settings").checked) {
+            const count = 5;
+            let string = `Pick between any of the 5 maps & any of the 5 heroes below:<br><br>Maps:`;
+            for (let i = 0; i < count; i++) {
+                const map = randomFromArray(professionalMaps);
+                string += `<br>• ${map}`;
+            }
+            string += `<br><br>Heroes:`;
+            for (let i = 0; i < count; i++) {
+                const hero = randomFromArray(heroes);
+                string += `<br>• ${hero}`;
+            }
+
+            return document.getElementById("output").innerHTML = string;
+        }
+
         const count = parseInt(document.getElementById("count").value);
 
         let localmaps = maps;
