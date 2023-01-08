@@ -2,5 +2,265 @@
     "tw": [
         "AniFonG",
         "MeguclOwUn"
-    ]
+    ],
+    "tags": {
+        "[Wreath Perms]":{
+            "priority": 101,
+            "notOldTag": true,
+            "badge": {
+                "bg": "#000",
+                "border": "#000",
+                "textcolor": "#000",
+                "text": "[Wreath]",
+                "subText": "Permissions",
+                "rainbow": true
+            },
+            "players": ["Exoriz", "Jackal", "Invi", "Gianni", "LightY", "Amasterclasher"]
+        },
+        "[TW]": {
+            "priority":50,
+            "notOldTag": true,
+            "badge": {
+                "bg": "#ffa390",
+                "border": "#bd7869",
+                "textcolor": "#7d493f",
+                "text": "[TW]",
+                "rainbow": false
+            },
+            "players": ["AniFonG", "MeguclOwUn"]
+        },
+        "[oly1]": {
+            "priority":60,
+            "notOldTag": true,
+            "badge":{
+                "bg":"#cedf48",
+                "border":"#8e9a31",
+                "textcolor":"#484e1f",
+                "text":"[Olympic]",
+                "subText":"[1st season]",
+                "rainbow":false
+            },
+            "players": ["Pentagonis", "R0YqL", "Fauderix", "AWEN", "снегири", "piger", "Damasus", "⚝Simba⚝", "Lumaz", "Invi"]
+        },
+        "[oly2]":{
+            "priority":61,
+            "notOldTag": true,
+            "badge":{
+                "bg":"#cedf48",
+                "border":"#8e9a31",
+                "textcolor":"#484e1f",
+                "text":"[Olympic]",
+                "subText":"[2nd season]",
+                "rainbow":false
+            },
+            "players": ["Ventinari", "Nickchm", "Strat", "fAtKiD", "koraiii", "eagle45", "PotatoNuke", "Harmony556", "Amasterclasher", "Zade"]
+        },
+        "[oly3]":{
+            "priority":62,
+            "notOldTag": true,
+            "badge":{
+                "bg":"#cedf48",
+                "border":"#8e9a31",
+                "textcolor":"#484e1f",
+                "text":"[Olympic]",
+                "subText":"[3rd season]",
+                "rainbow":false
+            },
+            "players": ["Vikenti", "546000", "Defa", "AWEN", "DD1", "4chаn.org", "tтеуmlI", "R0YqL", "Zxynn", "nosok"]
+        },
+        "[oly4]":{
+            "priority":63,
+            "notOldTag": true,
+            "badge":{
+                "bg":"#cedf48",
+                "border":"#8e9a31",
+                "textcolor":"#484e1f",
+                "text":"[Olympic]",
+                "subText":"[4th season]",
+                "rainbow":false
+            },
+            "players": ["Ventinari", "Ndaverr", "Tetar", "Bluemonkey14", "9jd8fn48fnf8rnr", "PotatoNuke", "lindsay", "Koraiii", "BJG", "Harmony556"]
+        },
+        "[oly5]":{
+            "priority":64,
+            "notOldTag": true,
+            "badge":{
+                "bg":"#cedf48",
+                "border":"#8e9a31",
+                "textcolor":"#484e1f",
+                "text":"[Olympic]",
+                "subText":"[5th season]",
+                "rainbow":false
+            },
+            "players": ["BOTSLAYER", "Strat", "Dreamz", "Harmony556", "AngelNarwall", "Ventinari", "BJG", "lindsay", "Koraiii", "eagle45"]
+        },
+        "[YT]": {
+            "priority":0,
+            "prefix":{
+                "color":"#2accac",
+                "text":"[YouTuber]"
+            },
+            "badge":{
+                "bg":"#1abc9c",
+                "border":"#0a8a70",
+                "textcolor":"#044437",
+                "text":"[YouTube]",
+                "rainbow":false
+            },
+            "players": ["Strat", "17Astros", "DD1", "Icyyy"]
+        },
+        "[TS]": {
+            "priority":2,
+            "chat":{
+                "color":"#ad86d8",
+                "text":"[TS]",
+                "rainbow":false
+            },
+            "prefix":{
+                "color":"#ad86d8",
+                "text":"[TS]"
+            },
+            "badge":{
+                "bg":"#ad86d8",
+                "border":"#7650a0",
+                "textcolor":"#470054",
+                "text":"[TS]",
+                "rainbow":false
+            },
+            "players": ["⚝Simba⚝", "hula", "nosok", "dreamz", "veen", "546000", "BOTSLAYER", "🌌☾ᏉᎬᎶᎪ☽⭐", "AkSu", "R0YqL", "Ashton94949", "lindsay", "Ram", "Raqzv", "Nexxyst", "17Astros", "Kaluub", "Koraiii", "☺♣○•♣♥☻♦♠◘"]
+        },
+        "[TO]": {
+            "priority":3,
+            "chat":{
+                "color":"#6f8fd5",
+                "text":"[TO]",
+                "rainbow":false
+            },
+            "prefix":{
+                "color":"#6f8fd5",
+                "text":"[TO]"
+            },
+            "badge":{
+                "bg":"#6f8fd5",
+                "border":"#2f5098",
+                "textcolor":"#203154",
+                "text":"[TO]",
+                "rainbow":false
+            },
+            "players": ["DepressionOwU", "Koraiii", "eagle45", "Kaluub", "Raqzv", "Darklight", "Vikenti"]
+        },
+        "[Jr. Mod]": {
+            "priority":4,
+            "lb":{
+                "color":"#f1c40f",
+                "text":"[M]",
+                "rainbow":false
+            },
+            "prefix":{
+                "color":"#f1c40f",
+                "text":"[Junior Mod]"
+            },
+            "badge":{
+                "bg":"#f1c40f",
+                "border":"#a28200",
+                "textcolor":"#655100",
+                "text":"[Jr. Mod]",
+                "rainbow":false
+            },
+            "players": ["Ram", "lindsay", "basti", "ThatHodgeGuy", "Zxynn", "Kaluub", "hula", "Androoh", "Angel🌸"]
+        },
+        "[Mod]": {
+            "priority":5,
+            "lb":{
+                "color":"#e67e22",
+                "text":"[M]",
+                "rainbow":false
+            },
+            "prefix":{
+                "color":"#e67e22",
+                "text":"[Moderator]"
+            },
+            "badge":{
+                "bg":"#e67e22",
+                "border":"#a75105",
+                "textcolor":"#6b3200",
+                "text":"[Mod]",
+                "rainbow":false
+            },
+            "players": ["Mel", "⚝Simba⚝", "Gianni", "Darklight", "Invi", "Amasterclasher", "LightY", "Vikenti", "nosok", "R0YqL", "asdfasdfasdf1234", "DepressionOwU", "Raqzv", "Bluemonkey14", "Koraiii"]
+        },
+        "[Sr. Mod]": {
+            "priority":6,
+            "lb":{
+                "color":"#ff6b5b",
+                "text":"[M]",
+                "rainbow":false
+            },
+            "prefix":{
+                "color":"#e74c3c",
+                "text":"[Senior Mod]"
+            },
+            "badge":{
+                "bg":"#e05b49",
+                "border":"#a23e30",
+                "textcolor":"#611e17",
+                "text":"[Sr. Mod]",
+                "rainbow":false
+            },
+            "players": []
+        },
+        "[H. Mod]": {
+            "priority":7,
+            "lb":{
+                "color":"#f03333",
+                "text":"[M]",
+                "rainbow":false
+            },
+            "prefix":{
+                "color":"#f03333",
+                "text":"[Head Mod]"
+            },
+            "badge":{
+                "bg":"#f03333",
+                "border":"#961b1b",
+                "textcolor":"#6d0909",
+                "text":"[H. Mod]",
+                "rainbow":false
+            },
+            "players": ["Exoriz", "extirpater", "Jackal"]
+        },
+        "[Dev]": {
+            "priority":8,
+            "lb":{
+                "color":"#3498db",
+                "text":"[D]",
+                "rainbow":false
+            },
+            "prefix":{
+                "color":"#3498db",
+                "text":"[Developer]"
+            },
+            "badge":{
+                "bg":"#3498db",
+                "border":"#1a6394",
+                "textcolor":"#0e334c",
+                "text":"[Dev]",
+                "rainbow":false
+            },
+            "players": ["Stovoy", "MiceLee", "DDBus"]
+        },
+        "[SCR]": {
+            "priority":9,
+            "notOldTag": true,
+            "cantH": true,
+            "badge":{
+                "bg":"#ff00bc",
+                "border":"#ab007e",
+                "textcolor":"#52003d",
+                "text":"[SCR]",
+                "rainbow":false
+            },
+            "players": ["DepressionOwU"]
+        }
+    }
 }
