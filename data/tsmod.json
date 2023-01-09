@@ -127,7 +127,7 @@
                 "text":"[TS]",
                 "rainbow":false
             },
-            "players": ["⚝Simba⚝", "hula", "nosok", "dreamz", "veen", "546000", "BOTSLAYER", "🌌☾ᏉᎬᎶᎪ☽⭐", "AkTu", "R0YqL", "Ashton94949", "lindsay", "Ram", "Raqzv", "Nexxyst", "17Astros", "Kaluub", "Koraiii", "☺♣○•♣♥☻♦♠◘"]
+            "players": ["⚝Simba⚝", "hula", "nosok", "Dreamz", "veen", "546000", "BOTSLAYER", "🌌☾ᏉᎬᎶᎪ☽⭐", "AkTu", "R0YqL", "Ashton94949", "lindsay", "Ram", "Raqzv", "Nexxyst", "17Astros", "Kaluub", "Koraiii", "☺♣○•♣♥☻♦♠◘"]
         },
         "[TO]": {
             "priority":3,
@@ -167,7 +167,7 @@
                 "text":"[Jr. Mod]",
                 "rainbow":false
             },
-            "players": ["Ram", "lindsay", "basti", "ThatHodgeGuy", "Zxynn", "Kaluub", "hula", "Androoh", "Angel🌸"]
+            "players": ["Ram", "lindsay", "basti", "ThatHodgeGuy", "Zxynn", "hula", "Androoh", "Angel🌸"]
         },
         "[Mod]": {
             "priority":5,
