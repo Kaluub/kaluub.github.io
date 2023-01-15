@@ -1,6 +1,6 @@
 {
     "tw": [
-        "DenSuper"
+        "Strafe"
     ],
     "tags": {
         "[Wreath Perms]":{
@@ -26,7 +26,7 @@
                 "text": "[TW]",
                 "rainbow": false
             },
-            "players": ["DenSuper"]
+            "players": ["Strafe"]
         },
         "[oly1]": {
             "priority":60,
