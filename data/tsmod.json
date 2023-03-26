@@ -1,7 +1,4 @@
 {
-    "tw": [
-        "Ayu"
-    ],
     "tags": {
         "[Wreath Perms]": {
             "priority": 101,
@@ -38,9 +35,7 @@
                 "text": "[TW]",
                 "rainbow": false
             },
-            "players": [
-                "Ayu"
-            ]
+            "players": []
         },
         "[oly1]": {
             "priority": 60,
@@ -250,6 +245,34 @@
                 "Vikenti",
                 "fAtKiD",
                 "piger"
+            ]
+        },
+        "[EM]": {
+            "priority": 3,
+            "chat": {
+                "color": "#b5db72",
+                "text": "[EM]",
+                "rainbow": false
+            },
+            "prefix": {
+                "color": "#b5db72",
+                "text": "[EM]"
+            },
+            "badge": {
+                "bg": "#b5db72",
+                "border": "#87a15a",
+                "textcolor": "#809161",
+                "text": "[EM]",
+                "rainbow": false
+            },
+            "players": [
+                "LightY",
+                "nosok",
+                "DepressionOwU",
+                "Raqzv",
+                "Piou",
+                "Amasterclasher",
+                "MeguclOwUn"
             ]
         },
         "[Jr. Mod]": {
