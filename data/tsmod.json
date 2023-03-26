@@ -248,7 +248,7 @@
             ]
         },
         "[EM]": {
-            "priority": 3,
+            "priority": 4,
             "chat": {
                 "color": "#b5db72",
                 "text": "[EM]",
@@ -276,7 +276,7 @@
             ]
         },
         "[Jr. Mod]": {
-            "priority": 4,
+            "priority": 5,
             "lb": {
                 "color": "#f1c40f",
                 "text": "[M]",
@@ -303,7 +303,7 @@
             ]
         },
         "[Mod]": {
-            "priority": 5,
+            "priority": 6,
             "lb": {
                 "color": "#e67e22",
                 "text": "[M]",
@@ -340,7 +340,7 @@
             ]
         },
         "[Sr. Mod]": {
-            "priority": 6,
+            "priority": 7,
             "lb": {
                 "color": "#ff6b5b",
                 "text": "[M]",
@@ -360,7 +360,7 @@
             "players": []
         },
         "[H. Mod]": {
-            "priority": 7,
+            "priority": 8,
             "lb": {
                 "color": "#f03333",
                 "text": "[M]",
@@ -384,7 +384,7 @@
             ]
         },
         "[Dev]": {
-            "priority": 8,
+            "priority": 9,
             "lb": {
                 "color": "#3498db",
                 "text": "[D]",
@@ -412,7 +412,7 @@
             ]
         },
         "[SCR]": {
-            "priority": 9,
+            "priority": 10,
             "notOldTag": true,
             "cantH": true,
             "badge": {
