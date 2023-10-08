@@ -13,16 +13,17 @@
             },
             "players": [
                 "Exoriz",
-                "Jackal",
-                "Invi",
                 "Gianni",
-                "LightY",
+                "Jackal",
                 "Amasterclasher",
+                "LightY",
+                "DepressionOwU",
                 "eagle45",
                 "Kaluub",
                 "Raqzv",
                 "Darklight",
-                "Vikenti"
+                "Vikenti",
+                "extirpater"
             ]
         },
         "[TW]": {
@@ -172,6 +173,7 @@
             },
             "players": [
                 "Strat",
+                "Godenot",
                 "17Astros",
                 "DD1",
                 "Icyyy"
@@ -247,9 +249,7 @@
                 "Darklight",
                 "Vikenti",
                 "fAtKiD",
-                "MeguclOwUn",
-                "DepressionOwU",
-                "Koraiii"
+                "MeguclOwUn"
             ]
         },
         "[EM]": {
@@ -273,7 +273,6 @@
             "players": [
                 "LightY",
                 "nosok",
-                "DepressionOwU",
                 "Raqzv",
                 "Piou",
                 "Amasterclasher",
@@ -299,12 +298,13 @@
                 "rainbow": false
             },
             "players": [
-                "Ram",
-                "eagle45",
-                "๖ۣۜCorrupt 🆉",
                 "☯☪$ai",
                 "AniFonG",
-                "MeguclOwUn"
+                "MeguclOwUn",
+                "jules",
+                "kikaa",
+                "yeetyeet47",
+                "lindsay"
             ]
         },
         "[Mod]": {
@@ -328,21 +328,19 @@
             "players": [
                 "Mel",
                 "Gianni",
-                "Darklight",
-                "Invi",
                 "Amasterclasher",
-                "LightY",
                 "Vikenti",
                 "nosok",
-                "R0YqL",
-                "Raqzv",
+                "DepressionOwU",
                 "basti",
                 "ThatHodgeGuy",
-                "Kaluub",
-                "hula",
                 "PotatoNuke",
                 "Zade",
-                "AWEN"
+                "AWEN",
+                "eagle45",
+                "Angel🌸",
+                "Androoh",
+                "Ram"
             ]
         },
         "[Sr. Mod]": {
@@ -363,7 +361,12 @@
                 "text": "[Sr. Mod]",
                 "rainbow": false
             },
-            "players": []
+            "players": [
+                "Darklight",
+                "LightY",
+                "Raqzv",
+                "Kaluub"
+            ]
         },
         "[H. Mod]": {
             "priority": 8,
@@ -430,8 +433,7 @@
                 "rainbow": false
             },
             "players": [
-                "DepressionOwU",
-                "Lime"
+                "DepressionOwU"
             ]
         }
     }
